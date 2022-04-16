@@ -14,7 +14,6 @@ public class Main {
             System.out.println("Неправильное значение массива!");
             System.out.println("Ошибка в ячейке: " + e.i + "x" + e.j);
         }
-
     }
 
 
@@ -35,7 +34,6 @@ public class Main {
                     throw new MyArrayDataException(i, j);
                 }
             }
-
         }
         return count;
     }
